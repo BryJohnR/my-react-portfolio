@@ -6,12 +6,7 @@ export default function Portfolio({ data }) {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const handleImageError = (e) => {
-    e.target.src =
-      "https://via.placeholder.com/400x300.png?text=No+Image+Available";
-  };
-
-  const getImageUrl = (path) => {
-    return new URL(path, import.meta.url).href;
+    e.target.src = `${import.meta.env.BASE_URL}images/project/portfolio.jpg`;
   };
 
   return (
@@ -47,9 +42,9 @@ export default function Portfolio({ data }) {
               whileHover={{ scale: 1.05 }}
             >
               <img
-                src={getImageUrl(project.img)}
+                src={`${import.meta.env.BASE_URL + project.img}`}
                 alt={project.title}
-                //onError={handleImageError}
+                onError={handleImageError}
                 className="mb-4 rounded-md"
               />
               <h3 className="text-xl font-bold">{project.title}</h3>
@@ -87,7 +82,7 @@ export default function Portfolio({ data }) {
 
               {/* Project Image */}
               <img
-                src={getImageUrl(selectedProject.img)}
+                src={`${import.meta.env.BASE_URL + selectedProject.img}`}
                 alt={selectedProject.title}
                 onError={handleImageError}
                 className="w-full h-80 object-cover rounded-t-lg"

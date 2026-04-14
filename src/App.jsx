@@ -9,9 +9,10 @@ import { motion } from "framer-motion";
 
 export default function App() {
   const [data, setData] = useState(null);
+  const base = import.meta.env.BASE_URL;
 
   useEffect(() => {
-    fetch("https://bryjohnr.github.io/my-react-portfolio/data/content.json")
+    fetch(`${base}data/content.json`)
       .then((res) => res.json())
       .then(setData);
   }, []);
