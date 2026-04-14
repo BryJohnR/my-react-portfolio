@@ -1,0 +1,111 @@
+{
+  "menu": [
+    { "name": "Home", "href": "#home" },
+    { "name": "About", "href": "#about" },
+    { "name": "Resume", "href": "#resume" },
+    { "name": "Portfolio", "href": "#portfolio" }
+  ],
+  "first_name": "Bryan John",
+  "last_name": "Rosas",
+  "title": "Web Developer",
+  "about": [
+    "I am a dedicated Software Engineer and Web Developer with over a decade of experience building, optimizing, and maintaining websites and e-commerce solutions. My career journey has taken me from data entry and billing systems to advanced WordPress, WooCommerce, and Laravel development, custom plugin creation, and QA automation.",
+    "I specialize in crafting responsive, high-performing websites and e-commerce platforms that enhance user experience and drive measurable results—such as boosting client engagement, increasing sales, and improving retention. My technical expertise spans HTML, CSS, JavaScript, PHP, Laravel, WordPress, WooCommerce, and API integrations, supported by strong testing and automation skills using Selenium, JMeter, Postman, and Git.",
+    "Beyond development, I have a proven track record in quality assurance and performance testing, ensuring reliable and efficient systems. I thrive on solving complex problems, collaborating with teams, and continuously learning new frameworks and technologies, including React and AI.",
+    "With a passion for innovation and detail-oriented execution, I aim to deliver user-friendly, scalable, and future-ready solutions that create lasting value for businesses and their customers."
+  ],
+  "contact": {
+    "email": "bryanjohn.rosas@gmail.com",
+    "phone": "0906-240-00271",
+    "location": "Carmona, Cavite, Philippines, 4116 "
+  },
+  "skills": {
+    "web_development": {
+      "HTML": 90,
+      "CSS": 90,
+      "JS": 85,
+      "WordPress/WooCommerce": 90,
+      "Laravel": 85,
+      "PHP": 85
+    },
+    "testing": {
+      "Selenium": 80,
+      "JMeter": 80,
+      "Postman": 85
+    },
+    "analytics": {
+      "Google Analytics": 80,
+      "Search Engine Optimization": 80
+    },
+    "versioning": {
+      "Git": 78
+    },
+    "languages": ["English"],
+    "personal": ["Creativity", "Team Work", "Organization"]
+  },
+  "experience": [
+    {
+      "year": "2021 to 2025",
+      "role": "Engineer, Software Solutions, Technology",
+      "company": "TechPryme"
+    },
+    {
+      "year": "2020 to 2021",
+      "role": "Freelance Web Developer (Growth Period)",
+      "company": "Freelance"
+    },
+    {
+      "year": "2016 to 2020",
+      "role": "Web Developer",
+      "company": "Zapport Services Inc."
+    },
+    {
+      "year": "2015 to 2016",
+      "role": "Software Programmer (Freelance)",
+      "company": "Shrewd Creations "
+    },
+    {
+      "year": "2015",
+      "role": "Web Programmer",
+      "company": "SKY Cable (Coreserv Management Inc.)"
+    },
+    {
+      "year": "2014 to 2015",
+      "role": "Junior Programmer",
+      "company": "Speedo Philippines (Sprint International Inc.)"
+    }
+  ],
+  "education": {
+    "degree": "BS in Information Technology",
+    "school": "Cavite State University"
+  },
+  "whatIDo": [
+    "Custom Development",
+    "Performance Optimization",
+    "eCommerce Solution",
+    "Search Engine Optimization",
+    "Bug Tracking",
+    "Test API/Automation"
+  ],
+  "hobbies": ["Gaming", "Toys", "Walk/Run", "Cinema"],
+  "portfolio": [
+    {
+      "title": "My Bento Theme Portfolio",
+      "img": "/images/project/resume-portfolio.png",
+      "link": "https://bryjohnr.github.io/",
+      "description": "A modern and responsive portfolio showcasing my web development projects, technical skills, and experience. Built to highlight my work and connect with opportunities in the tech industry."
+    },
+    {
+      "title": "Landing Pages",
+      "img": "/images/project/portfolio.jpg",
+      "link": "https://drive.google.com/drive/folders/1tu3_PDlAziyQS4w7FIJZZhg96HZylSqE",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "title": "Vlog Pages",
+      "img": "/images/project/portfolio.jpg",
+      "link": "https://drive.google.com/drive/folders/18gSrxHQiKyuoLPZQ2yGSaFqQ8WuOv_JU",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    }
+  ]
+}
