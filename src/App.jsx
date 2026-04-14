@@ -11,7 +11,7 @@ export default function App() {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("/data/content.json")
+    fetch("https://bryjohnr.github.io/my-react-portfolio/data/content.json")
       .then((res) => res.json())
       .then(setData);
   }, []);
