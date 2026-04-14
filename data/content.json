@@ -91,19 +91,19 @@
   "portfolio": [
     {
       "title": "My Bento Theme Portfolio",
-      "img": "/images/project/resume-portfolio.png",
+      "img": "images/project/resume-portfolio.png",
       "link": "https://bryjohnr.github.io/",
       "description": "A modern and responsive portfolio showcasing my web development projects, technical skills, and experience. Built to highlight my work and connect with opportunities in the tech industry."
     },
     {
       "title": "Landing Pages",
-      "img": "/images/project/portfolio.jpg",
+      "img": "images/project/landing.jpg",
       "link": "https://drive.google.com/drive/folders/1tu3_PDlAziyQS4w7FIJZZhg96HZylSqE",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       "title": "Vlog Pages",
-      "img": "/images/project/portfolio.jpg",
+      "img": "images/project/vlog.jpg",
       "link": "https://drive.google.com/drive/folders/18gSrxHQiKyuoLPZQ2yGSaFqQ8WuOv_JU",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     }
