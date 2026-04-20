@@ -1,4 +1,4 @@
-import profile from "../assets/images/profile.jpg";
+import profile from "../assets/images/profile.png";
 import { FaGamepad, FaRunning, FaRobot, FaLaptopCode } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeInUp } from "../utils/animations";

@@ -90,22 +90,39 @@
   "hobbies": ["Gaming", "Toys", "Walk/Run", "Cinema"],
   "portfolio": [
     {
-      "title": "My Bento Theme Portfolio",
+      "title": "My Resume Portfolio",
       "img": "images/project/resume-portfolio.png",
       "link": "https://bryjohnr.github.io/",
-      "description": "A modern and responsive portfolio showcasing my web development projects, technical skills, and experience. Built to highlight my work and connect with opportunities in the tech industry."
+      "description": "A modern and responsive portfolio showcasing my web development projects, technical skills, and experience. Built to highlight my work and connect with opportunities in the tech industry.",
+      "tag": ["HTML", "CSS", "JavaScript"]
     },
     {
-      "title": "Landing Pages",
-      "img": "images/project/landing.jpg",
-      "link": "https://drive.google.com/drive/folders/1tu3_PDlAziyQS4w7FIJZZhg96HZylSqE",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "title": "Company Landing Pages",
+      "img": "images/project/smilepay.png",
+      "link": "https://drive.google.com/drive/folders/1D2xOz_UQbdRF69e-1sSdDy6SnBcD-rb8",
+      "description": "Built a custom WordPress landing page theme for a company profile, focusing on clean UI, responsive design, and fast performance. Developed with WordPress, PHP, HTML, CSS, and JavaScript to create a professional and engaging business presence optimized for conversions.",
+      "tag": ["WordPress", "HTML", "CSS", "SASS", "JavaScript", "Bootstrap"]
     },
     {
-      "title": "Vlog Pages",
+      "title": "Company Landing Pages",
+      "img": "images/project/vpcsol.png",
+      "link": "https://drive.google.com/drive/folders/1C2ajtbA8G-dtojViqZIgF8fw-AYzUDFq",
+      "description": "Built a custom WordPress landing page theme for a company profile, focusing on clean UI, responsive design, and fast performance. Developed with WordPress, PHP, HTML, CSS, and JavaScript to create a professional and engaging business presence optimized for conversions.",
+      "tag": ["WordPress", "HTML", "CSS", "SASS", "JavaScript", "Bootstrap"]
+    },
+    {
+      "title": "Blog Theme",
       "img": "images/project/vlog.jpg",
-      "link": "https://drive.google.com/drive/folders/18gSrxHQiKyuoLPZQ2yGSaFqQ8WuOv_JU",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "link": "https://drive.google.com/drive/folders/1NJyVbTslgkSBk_SoCOgxt6SEJtIdgKZR",
+      "description": "Built a custom WordPress blog theme with a clean, modern design and responsive layout. Focused on readability, performance, and user experience. Developed using PHP, HTML, CSS, and JavaScript to deliver a flexible and scalable blogging platform optimized for content publishing.",
+      "tag": ["WordPress", "HTML", "CSS", "SASS", "JavaScript", "Bootstrap"]
+    },
+    {
+      "title": "Blog Multiple Theme",
+      "img": "images/project/vlog.jpg",
+      "link": "https://drive.google.com/drive/folders/16F7PF8X0Ja-ihQQqzdlgawJrBuArC5q_",
+      "description": "Built a custom WordPress theme with multiple blog layouts for flexible content presentation. Designed for performance, responsiveness, and easy content management. Developed using PHP, HTML, CSS, and JavaScript to provide dynamic layouts, modern UI, and a scalable blogging experience.",
+      "tag": ["WordPress", "HTML", "CSS", "SASS", "JavaScript", "Bootstrap"]
     }
   ]
 }
