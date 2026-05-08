@@ -97,6 +97,13 @@
       "tag": ["HTML", "CSS", "JavaScript"]
     },
     {
+      "title": "Employee Management System",
+      "img": "images/project/ems.png",
+      "link": "https://ems-app-ashy.vercel.app/",
+      "description": "WorkforceHub is a full stack employee management application built with MongoDB, Express, React, and Node.js. It streamlines internal HR workflows by managing employee records, attendance tracking, leave requests, department organization, and role based access through a centralized dashboard. The project focuses on building scalable backend APIs, reusable React components, efficient state management, and a clean user friendly interface.",
+      "tag": ["MongoDB", "Express", "React", "Node.js", "Tailwind"]
+    },
+    {
       "title": "Company Landing Pages",
       "img": "images/project/smilepay.png",
       "link": "https://drive.google.com/drive/folders/1D2xOz_UQbdRF69e-1sSdDy6SnBcD-rb8",
@@ -121,7 +128,7 @@
       "title": "Blog Multiple Theme",
       "img": "images/project/vlog.jpg",
       "link": "https://drive.google.com/drive/folders/16F7PF8X0Ja-ihQQqzdlgawJrBuArC5q_",
-      "description": "Built a custom WordPress theme with multiple blog layouts for flexible content presentation. Designed for performance, responsiveness, and easy content management. Developed using PHP, HTML, CSS, and JavaScript to provide dynamic layouts, modern UI, and a scalable blogging experience.", 
+      "description": "Built a custom WordPress theme with multiple blog layouts for flexible content presentation. Designed for performance, responsiveness, and easy content management. Developed using PHP, HTML, CSS, and JavaScript to provide dynamic layouts, modern UI, and a scalable blogging experience.",
       "tag": ["WordPress", "HTML", "CSS", "SASS", "JavaScript", "Bootstrap"]
     }
   ]

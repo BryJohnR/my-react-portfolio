@@ -114,7 +114,9 @@ export default function Resume({ data }) {
 
         {/* Experience */}
         <motion.div variants={fadeIn}>
-          <h2 className="text-xl font-bold mb-4 uppercase">Experience</h2>
+          <h2 className="uppercase text-2xl font-bold mb-4 underline underline-offset-4 decoration-blue-400 decoration-2 dark:text-gray-200">
+            Experience
+          </h2>
           <div className="space-y-5">
             {data.experience.map((exp) => (
               <motion.div
@@ -141,6 +143,12 @@ export default function Resume({ data }) {
           </h2>
           <motion.p variants={fadeIn} className="text-sm leading-relaxed">
             {data.skills.personal.join(" – ")}
+          </motion.p>
+          <h2 className="uppercase text-2xl font-bold my-8 underline underline-offset-4 decoration-blue-400 decoration-2 dark:text-gray-200">
+            EDUCATION
+          </h2>
+          <motion.p variants={fadeIn} className="text-sm leading-relaxed">
+            {data.education.degree}, {data.education.school}
           </motion.p>
           <h2 className="uppercase text-2xl font-bold my-8 underline underline-offset-4 decoration-blue-400 decoration-2 dark:text-gray-200">
             LANGUAGES

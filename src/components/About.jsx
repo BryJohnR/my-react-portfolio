@@ -9,120 +9,73 @@ export default function About({ data }) {
       id="about"
       className="container mx-auto px-6 py-12 min-h-screen relative"
     >
-      <div className="grid lg:grid-cols-3 md:grid-cols-1 items-center gap-8">
+      <div className="grid lg:grid-cols-2 md:grid-cols-2 items-center gap-8">
         {/* Left Content */}
         <motion.div
-          className="lg:col-span-2 text-white order-2 lg:order-1"
+          className="grid md:grid-rows-1 gap-8 text-white order-2 lg:order-1 "
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
         >
-          {/* Section Title */}
-          <motion.h2
-            className="text-3xl font-bold mt-6 mb-3 relative inline-block dark:text-gray-200"
-            variants={fadeInUp}
-          >
-            About
-            <motion.span
-              className="absolute left-0 bottom-0 h-1 bg-blue-400 w-full origin-left"
-              initial={{ scaleX: 0 }}
-              whileInView={{ scaleX: 1 }}
-              transition={{ duration: 0.6, ease: "easeOut" }}
-            />
-          </motion.h2>
-
-          {/* Intro */}
-          <motion.p
-            className="text-2xl text-gray-300 mb-3"
-            variants={fadeInUp}
-            custom={1}
-          >
-            My Name is{" "}
-            <span className="text-blue-400">
-              {data.first_name + " " + data.last_name}
-            </span>
-          </motion.p>
-
-          {/* About description */}
-          <motion.p
-            className="mb-6 text-lg leading-relaxed"
-            variants={fadeInUp}
-            custom={2}
-          >
-            {data.about}
-          </motion.p>
-
-          {/* Personal Details */}
-          <div className="grid md:grid-cols-2 gap-6 my-6">
+          <motion.div>
+            {/* Section Title */}
+            <motion.h2
+              className="text-3xl font-bold mt-6 mb-3 relative inline-block dark:text-gray-200"
+              variants={fadeInUp}
+            >
+              About
+              <motion.span
+                className="absolute left-0 bottom-0 h-1 bg-blue-400 w-full origin-left"
+                initial={{ scaleX: 0 }}
+                whileInView={{ scaleX: 1 }}
+                transition={{ duration: 0.6, ease: "easeOut" }}
+              />
+            </motion.h2>
+            {/* Intro */}
+            <motion.p
+              className="text-2xl text-gray-300 mb-3"
+              variants={fadeInUp}
+              custom={1}
+            >
+              My Name is{" "}
+              <span className="text-blue-400">
+                {data.first_name + " " + data.last_name}
+              </span>
+            </motion.p>
+          </motion.div>
+          <motion.div>
+            {/* About description */}
+            <motion.p
+              className="mb-6 text-lg leading-relaxed"
+              variants={fadeInUp}
+              custom={2}
+            >
+              {data.about}
+            </motion.p>
+          </motion.div>
+          <motion.div>
             <motion.div
-              className="text-center"
+              className="my-6 py-6 text-center"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
             >
               {[
-                {
-                  label: "Name",
-                  value: `${data.first_name} ${data.last_name}`,
-                },
                 { label: "Address", value: data.contact.location },
-                {
-                  label: "Education",
-                  value: `${data.education.degree}, ${data.education.school}`,
-                },
+                { label: "Email", value: data.contact.email },
+                { label: "Phone", value: data.contact.phone },
               ].map((item, i) => (
                 <motion.div
                   key={i}
-                  className="md:my-6"
+                  className="md:my-2"
                   variants={fadeInUp}
                   custom={i + 3}
                 >
-                  <p className="font-bold text-blue-400">{item.label}</p>
                   <p>{item.value}</p>
                 </motion.div>
               ))}
             </motion.div>
-
-            <motion.div
-              className="text-center"
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-            >
-              {[
-                { label: "Phone", value: data.contact.phone },
-                { label: "Email", value: data.contact.email },
-              ].map((item, i) => (
-                <motion.div
-                  key={i}
-                  className="md:my-6"
-                  variants={fadeInUp}
-                  custom={i + 6}
-                >
-                  <p className="font-bold text-blue-400">{item.label}</p>
-                  <p>{item.value}</p>
-                </motion.div>
-              ))}
-
-              {/* Hobbies */}
-              <motion.div className="md:my-6" variants={fadeInUp} custom={8}>
-                <p className="font-bold text-blue-400">Hobbies & Interest</p>
-                <div className="flex gap-4 mt-2 items-center justify-center">
-                  {[FaGamepad, FaRunning, FaRobot, FaLaptopCode].map(
-                    (Icon, i) => (
-                      <motion.span
-                        key={i}
-                        whileHover={{ scale: 1.2, rotate: 10 }}
-                        className="w-10 h-10 flex items-center justify-center rounded-full border border-gray-500 hover:bg-blue-400 hover:text-white transition"
-                      >
-                        <Icon />
-                      </motion.span>
-                    ),
-                  )}
-                </div>
-              </motion.div>
-            </motion.div>
-          </div>
+          </motion.div>
         </motion.div>
 
         {/* Right - Profile with Glow */}
