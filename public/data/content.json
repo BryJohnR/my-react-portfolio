@@ -121,7 +121,7 @@
       "title": "Blog Multiple Theme",
       "img": "images/project/vlog.jpg",
       "link": "https://drive.google.com/drive/folders/16F7PF8X0Ja-ihQQqzdlgawJrBuArC5q_",
-      "description": "Built a custom WordPress theme with multiple blog layouts for flexible content presentation. Designed for performance, responsiveness, and easy content management. Developed using PHP, HTML, CSS, and JavaScript to provide dynamic layouts, modern UI, and a scalable blogging experience.",
+      "description": "Built a custom WordPress theme with multiple blog layouts for flexible content presentation. Designed for performance, responsiveness, and easy content management. Developed using PHP, HTML, CSS, and JavaScript to provide dynamic layouts, modern UI, and a scalable blogging experience.", 
       "tag": ["WordPress", "HTML", "CSS", "SASS", "JavaScript", "Bootstrap"]
     }
   ]
