@@ -25,17 +25,17 @@ export default function Home({ data }) {
 
           <div className="mt-7 flex gap-3">
             <a
-              href="#resume"
-              className="px-4 py-2 border border-gray-400 rounded hover:bg-gray-800"
-            >
-              Resume
-            </a>
-            <a
               href={cv}
               className="px-4 py-2 border border-indigo-500 rounded bg-blue-600 text-white"
               download
             >
               Download CV
+            </a>
+            <a
+              href={`mailto:${data.contact.email}`}
+              className="px-4 py-2 border border-gray-400 rounded hover:bg-gray-800"
+            >
+              Contact Me
             </a>
           </div>
         </div>
